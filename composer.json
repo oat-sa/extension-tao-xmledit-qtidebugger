@@ -1,6 +1,6 @@
 {
 
-    "name": "oat-sa/extension-tao-xmledit-QtiDebugger",
+    "name": "oat-sa/extension-tao-xmledit-qtidebugger",
     "description" : "xml editing tools and debugger",
     "type" : "tao-extension",
     "authors" : [
