@@ -26,11 +26,12 @@ return array(
     'version' => '0.1.0',
 	'author' => 'Open Assessment Technologies SA',
 	'requires' => array(
-        'xmlEdit' => '>=1.0.0'
+        'xmlEdit' => '>=1.0.0',
+        'taoQtiItem' => '>=2.11.0'
     ),
-	'managementRole' => 'http://www.tao.lu/Ontologies/generis.rdf#xmlEditQtiDebuggerManager',
-    'acl' => array(
-        array('grant', 'http://www.tao.lu/Ontologies/generis.rdf#xmlEditQtiDebuggerManager', array('ext'=>'xmlEditQtiDebugger')),
+	'acl' => array(
+        array('grant', 'http://www.tao.lu/Ontologies/TAOItem.rdf#QTIManagerRole', array('ext'=>'xmlEditQtiDebugger')),
+        array('grant', 'http://www.tao.lu/Ontologies/TAOItem.rdf#ItemsManagerRole', array('ext'=>'xmlEditQtiDebugger'))
     ),
     'install' => array(
         'php' => array(
