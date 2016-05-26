@@ -43,8 +43,5 @@ class Updater extends common_ext_ExtensionUpdater
             $registry->registerPlugin('xmlResponseProcessing', 'xmlEditQtiDebugger/qtiCreator/plugins/menu/xmlEditor', 'menu');
             $this->setVersion('0.2.0');
         }
-
     }
-
-
 }
