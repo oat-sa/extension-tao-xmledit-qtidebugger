@@ -18,23 +18,31 @@
  *
  */
 namespace oat\xmlEditQtiDebugger\scripts\update;
+
 use \common_ext_ExtensionUpdater;
+use oat\taoQtiItem\model\QtiCreatorClientConfigRegistry;
 
 /**
- * 
+ *
  * @author Sam <sam@taotesting.com>
  */
 class Updater extends common_ext_ExtensionUpdater
 {
 
     /**
-     * 
+     *
      * @param string $initialVersion
      * @return string $versionUpdatedTo
      */
     public function update($initialVersion)
     {
         $this->setVersion($initialVersion);
+
+        if($this->isVersion('0.1.0')){
+            $registry = QtiCreatorClientConfigRegistry::getRegistry();
+            $registry->registerPlugin('xmlResponseProcessing', 'xmlEditQtiDebugger/qtiCreator/plugins/menu/xmlEditor', 'menu');
+            $this->setVersion('0.2.0');
+        }
 
     }
 

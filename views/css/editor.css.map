@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAGA,kCAAkC,CAC9B,QAAQ,CAAE,QAAQ",
+"mappings": "AAGA,kCAAkC,CAC9B,QAAQ,CAAE,QAAQ,CAClB,MAAM,CAAG,mBAAmB,CAC5B,OAAO,CAAE,GAAG,CACZ,IAAI,CAAE,CAAC,CACP,GAAG,CAAE,KAAK,CACV,KAAK,CAAC,IAAI,CACV,QAAQ,CAAE,MAAM",
 "sources": ["../scss/editor.scss"],
 "names": [],
 "file": "editor.css"
