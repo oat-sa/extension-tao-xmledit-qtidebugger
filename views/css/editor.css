@@ -1,2 +1,2 @@
-.tao-xml-editor.qti-creator-source{position:absolute}
+.tao-xml-editor.qti-creator-source{position:absolute;height:calc(100vh - 135px);z-index:301;left:0;top:101px;width:100%;overflow:hidden}
 /*# sourceMappingURL=editor.css.map */
