@@ -8,9 +8,7 @@ module.exports = function(grunt) {
 
     //override load path
     sass.xmleditqtidebugger = {
-        options : {
-            loadPath : ['../scss/', root + 'scss/inc']
-        },
+        options : {},
         files : {}
     };
 
