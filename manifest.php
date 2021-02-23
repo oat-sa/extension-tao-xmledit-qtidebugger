@@ -23,12 +23,7 @@ return array(
     'label' => 'xmlEditQtiDebugger',
     'description' => 'xml editing and debugging tools',
     'license' => 'GPL-2.0',
-    'version' => '1.1.0',
     'author' => 'Open Assessment Technologies SA',
-    'requires' => array(
-        'xmlEdit' => '>=1.1.0',
-        'taoQtiItem' => '>=2.27.0'
-    ),
     'acl' => array(
         array('grant', 'http://www.tao.lu/Ontologies/TAOItem.rdf#QTIManagerRole', array('ext'=>'xmlEditQtiDebugger')),
         array('grant', 'http://www.tao.lu/Ontologies/TAOItem.rdf#ItemsManagerRole', array('ext'=>'xmlEditQtiDebugger'))
